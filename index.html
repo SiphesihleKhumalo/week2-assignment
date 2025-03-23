@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Kangaroos</h1>
+    <h3>Types of kangaroos</h3>
+    <ol type="I">
+      <li>Eastern grey kangaroo</li>
+      <li>Red kangaroo</li>
+      <li>Antilopine kangaroo</li>
+      <li>Nabarlek</li>
+      <li>Western kangaroo</li>
+    </ol>
+    <h2>Different types of kangaroos</h2>
+    <img
+      src="Images/KANGAROO 1.jpg"
+      alt="A kangaroo"
+      width="320"
+      height="250"
+    />
+    <img
+      src="Images/KANGAROO 2.jpg"
+      alt="kangaroo staanding next to the road"
+      width="320"
+      height="300"
+    />
+    <section>
+      <h2>Contact Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Siphesihle Khumalo</td>
+            <td>123 Main St, Pretoria</td>
+            <td>067 8877 908</td>
+            <td>siphesihlekhumalo@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Joey Baldini</td>
+            <td>345 Bird street, pretoria</td>
+            <td>076 8899 877</td>
+            <td>joeybaldini@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Jake Baldini</td>
+            <td>989 Sugarbird, Johannesburg</td>
+            <td>071 6658 890</td>
+            <td>jakebaldini@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Siyamthanda Msimango</td>
+            <td>289 King Road, Benoni</td>
+            <td>073 691 3886</td>
+            <td>siyamthandamsimango@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Londiwe Zungu</td>
+            <td>209 Kingsley, Pretoria</td>
+            <td>079 6787 890</td>
+            <td>londiwezung@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>User Registration</legend>
+
+          <label for="name">Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          /><br /><br />
+
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+            minlength="8"
+          /><br /><br />
+
+          <label for="date">Date of Birth:</label><br />
+          <input type="date" id="date" name="date" required /><br /><br />
+
+          <label for="country">Country:</label><br />
+          <select id="country" name="country">
+            <option value="">Select a country</option>
+            <option value="usa">South Africa</option>
+            <option value="uk">Kenya</option>
+            <option value="canada">Nigeria</option>
+            <option value="australia">Zambia</option></select
+          ><br /><br />
+
+          <p>Gender:</p>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label><br />
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label><br />
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Other</label><br /><br />
+
+          <p>Favourite animal:</p>
+          <input type="checkbox" id="sports" name="animal" value="sports" />
+          <label for="sports">Lion</label><br />
+          <input type="checkbox" id="music" name="animal" value="music" />
+          <label for="music">Tiger</label><br />
+          <input type="checkbox" id="reading" name="animal" value="reading" />
+          <label for="reading">Zebra</label><br /><br />
+
+          <input type="submit" value="Register" />
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
